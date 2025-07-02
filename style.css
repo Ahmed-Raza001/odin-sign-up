@@ -6,6 +6,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: Norse-Bold, sans-serif;
 }
 
 .main {
@@ -21,22 +22,61 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
  color: #fff;
- /*font-family: Norse-Bold, sans-serif;*/
 }
 
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 }
 
 .first {
-  height: 33vh;
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .second {
+  background-color: #ffffff;
   height: 33vh;
 }
 
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  width: 60%;
+  justify-content: center;
+}
+
+.form-divs {
+
+}
+
+.form-div {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+input {
+  width: 200px;
+  border:1px solid #E5E7EB;
+  height: 25px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
 .third {
-  height: 33vh;
 }
