@@ -22,6 +22,8 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
  color: #fff;
+ display: flex;
+ flex-direction: column;
 }
 
 .right {
@@ -41,8 +43,10 @@ body {
 }
 
 .second {
-  background-color: #ffffff;
+  background-color: white;
   height: 33vh;
+  align-items: center;
+  box-shadow: 2px 5px #E5E7EB;
 }
 
 .form-main-div {
@@ -50,11 +54,7 @@ body {
   flex-direction: row;
   margin-left: 50px;
   width: 60%;
-  justify-content: center;
-}
-
-.form-divs {
-
+  justify-content: space-between;
 }
 
 .form-div {
@@ -78,5 +78,78 @@ input:invalid {
   border: 1px solid red;
 }
 
+label {
+  font-size: 10px;
+  color:#3B3B3c;
+}
+
+#error {
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+
+.btn-green {
+  background-color: #596D48;
+  color: white;
+  border: 1px solid #596D48;
+  border-radius: 10px;
+  height: 40px;
+  width: 175px;
+  font-weight: bolder;
+  font-size: small;
+   box-shadow: 2px 5px #E5E7EB;
+}
+
 .third {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.hyperlink {
+   margin-left: 50px;
+   margin-top: 25px;
+}
+
+.login {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a-footer {
+  color: #fff;
+}
+
+.p-footer {
+  font-size: 12px;
+}
+
+.forImage {
+  height: 34vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.forFooter {
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.semi-transparent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: Norse-Bold, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-family:  Norse-Bold;
 }

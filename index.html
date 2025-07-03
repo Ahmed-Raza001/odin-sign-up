@@ -10,7 +10,15 @@
 <body> 
   <div class="main">
     <div class="left">
-      <h1>Hi</h1>
+     <div class="forImage">
+      <div class="semi-transparent">
+        <img src="images/odin-sign-up.png" alt="odin-logo" height="100px">
+        <h1>ODIN</h1>
+      </div>
+     </div>
+     <div class="forFooter">
+      <p class="p-footer">Photo by <a class="a-footer" href="https://unsplash.com/Photos/25xggax4bSA">Halie West</a> on <a  class="a-footer" href="unsplash.com"> Unsplash</a></p>
+     </div>
     </div>
     <div class="right">
      <div class="first">
@@ -21,43 +29,49 @@ Sign up <em>now</em> to get started.
 You <em>know</em> you want to.
       </h3>
      </div>
-     <div class="second">
-      <h3 style="margin-left: 50px;">Let's do this!</h3>
-      <form action="" method="get" class="form-main-div">
+      <form action="" method="get">
+          <div class="second">
+         <h3 style="margin-left: 50px;">Let's do this!</h3>
+         <div class="form-main-div">
         <div class="form-divs">
           <div class="form-div">
-            <label for="firstName">firstName</label>
+            <label for="firstName">FIRS NAME</label>
             <input type="text" id="firstName" name="first_name"> 
           </div>
            <div class="form-div">
-            <label for="email">Email</label>
+            <label for="email">EMAIL</label>
             <input type="email" id="email" name="email"> 
           </div>
            <div class="form-div">
-            <label for="password">Password</label>
+            <label for="password">PASSWORD</label>
             <input type="password" id="password" name="password" required> 
-            <p id="error"></p>
+            <p id="error">*Password do not match</p>
           </div>
         </div>
          <div class="form-divs">
           <div class="form-div">
-            <label for="lastName">Last Name</label>
+            <label for="lastName">LAST NAME</label>
             <input type="text" id="lastName" name="last_name"> 
           </div>
            <div class="form-div">
-            <label for="phoneNumber">Phone Number</label>
+            <label for="phoneNumber">PHONE NUMBER</label>
             <input type="tel" id="phoneNumber" name="phoneNumber"> 
           </div>
            <div class="form-div">
-            <label for="Confirm Password">Confirm Password</label>
+            <label for="Confirm Password">CONFIRM PASSWORD</label>
             <input type="password" id="confirmPassword" name="ConfirmPassword" required> 
           </div>
           </div>
-        <div class="form-divs"></div>
-      </form>
-     </div>
-     <div class="third">Word</div>
-    </div>
-  </div>
+          </div> 
+          </div>
+          <div class="third">
+            <button type="submit" class="btn-green">Create Acount</button>
+          </div>
+        </form>
+        <div class="hyperlink">
+          <p>Already have an account?<a class= "login" href="">Log in</a></p>
+        </div>
+        </div>
+      </div>
 </body>
 </html>
